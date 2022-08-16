@@ -24,15 +24,12 @@ public class VendingMachine {
     }
 
     public static void main(String[] args) {
-        try {
+
             Scanner scr = new Scanner(System.in);
             System.out.println("enter amount");
             int value = scr.nextInt();
             notes(value);
-            scr.close() ;
-        } catch (Exception e) {
-            System.out.println("enter value in integer");
-        }
+
     }
 
 }
